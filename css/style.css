@@ -1,3 +1,8 @@
+/*
+Colors used:
+Primary colors (Orange): rgba (192,113,23,0.9); (Yellow): rgba (209,166,66,0.9); (Blue-Grey): rgba (82,96,102,0.9)
+Secondary colors (Dark-Grey): rgba (178,186,183,0.9); (Light-Grey): rgba (217,211,199,0.9)
+*/
 body {
   background-color: lightgrey;
 }
