@@ -4,12 +4,12 @@ Primary colors (Orange): rgba (192,113,23,0.9); (Yellow): rgba (209,166,66,0.9);
 Secondary colors (Dark-Grey): rgba (178,186,183,0.9); (Light-Grey): rgba (217,211,199,0.9)
 */
 body {
-  background-color: lightgrey;
+  background-color: #ffffff;
   font-family: 'Oswald', sans-serif;
   font-size: 16px; /* Sets the font size to 16px */
   font-weight: 300; /* Sets the font weight to 300 */
   line-height: 1.6; /* Sets the line-height to 1.6 * the font-size */
-  color: rgba(178,186,183,0.10);
+  color: #627a85
 }
 
 h1, h2, h3, h4 {
