@@ -33,3 +33,18 @@ h4 {
   font-size: 1.35em;
   font-weight: 400;
 }
+a {
+  color: #c4873a;
+  text-decoration: none; /* No underlining */
+}
+a:hover,
+a:focus {
+  color: #d5af65;
+  text-decoration: underline;
+}
+a:visited { /* visited link */
+  color: #c4873a;
+}
+a:active { /* selected link */
+  color: #d5af65;
+}
