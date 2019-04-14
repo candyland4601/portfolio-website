@@ -37,6 +37,9 @@ a {
   color: #c4873a;
   text-decoration: none; /* No underlining */
 }
+img {
+  width: 100%
+}
 a:hover,
 a:focus {
   color: #d5af65;
@@ -61,4 +64,17 @@ a:active { /* selected link */
 .button:hover {
   opacity: 0.8; /* Reduces the opacity of the button to 80% */
   text-decoration: none;
+}
+.button.contact {
+  background-color: transparent;
+  color: #c4873a !important;
+  text-transform: uppercase;
+  border: 2px solid #c4873a;
+}
+.button.contact:hover {
+  background-color: #d5af65;
+  color: #ffffff !important;
+}
+.logo {
+  width: 400px;
 }
