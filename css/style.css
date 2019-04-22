@@ -3,8 +3,19 @@ Colors used:
 Primary colors (Orange): rgba (192,113,23,0.9); (Yellow): rgba (209,166,66,0.9); (Blue-Grey): rgba (82,96,102,0.9)
 Secondary colors (Dark-Grey): rgba (178,186,183,0.9); (Light-Grey): rgba (217,211,199,0.9)
 */
+/*
+Layout styling
+*/
+.container {
+  padding: 0 15px;
+}
 header {
   background-color: #ffffff;
+  padding: 10px;
+  margin: 10px;
+}
+* {
+  box-sizing: border-box;
 }
 body {
   background-color: rgba(209,166,66,0.2);
@@ -80,4 +91,9 @@ a:active { /* selected link */
 }
 .logo {
   width: 400px;
+}
+.row {
+  margin: 25px 0; /* 25px top and bottom, 0 left and right */
+  border-bottom: 1px solid #d5af65;
+  padding: 25px;
 }
