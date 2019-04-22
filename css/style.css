@@ -26,6 +26,7 @@ main {
 }
 body {
   font-family: 'Oswald', sans-serif;
+  font-family: 'EB Garamond', serif;
   font-size: 16px; /* Sets the font size to 16px */
   font-weight: 300; /* Sets the font weight to 300 */
   line-height: 1.6; /* Sets the line-height to 1.6 * the font-size */
@@ -34,15 +35,16 @@ body {
 
 h1, h2, h3, h4 {
   line-height: 1.4;
+  font-family: 'Oswald', sans-serif;
 }
 h1 {
   font-size: 2.75em;
-  font-weight: 700;
+  font-weight: 600;
 }
 
 h2 {
   font-size: 2.25em;
-  font-weight: 700;
+  font-weight: 600;
 }
 
 h3 {
@@ -52,6 +54,9 @@ h3 {
 h4 {
   font-size: 1.35em;
   font-weight: 400;
+}
+p {
+  font-family: 'EB Garamond', serif;
 }
 a {
   color: #c4873a;
@@ -116,6 +121,7 @@ nav > ul {
 }
 nav > ul > li {
   display: inline-block;
+  font-family: 'Oswald', sans-serif;
 }
 nav > ul > li > a {
   padding: 0 15px;
