@@ -10,7 +10,7 @@ Layout styling
   padding: 0 15px;
 }
 header {
-  background-color: rgba(209,166,66,0.2);
+  background-color: #ffffff;
   padding: 10px;
   margin: 10px;
   text-align: center;
@@ -108,6 +108,7 @@ a:active { /* selected link */
 }
 #hero-section h1 {
   text-align: center; /* Centers text */
+  padding-top: 200px;
 }
 nav > ul {
   list-style-type: none;
