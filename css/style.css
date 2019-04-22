@@ -97,3 +97,6 @@ a:active { /* selected link */
   border-bottom: 1px solid #d5af65;
   padding: 25px;
 }
+#work-section .row {
+  padding-bottom: 25px; border-bottom: 1px solid #4a4a4a;
+}
