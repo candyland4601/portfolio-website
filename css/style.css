@@ -174,12 +174,23 @@ Medium devices (640px and larger)
   header {
     text-align: unset;
     padding: 20px 0 13px;
-    width: 100%;
   }
   nav {
     width: auto;
     float: right;
     margin-top: 4px;
+  }
+  body {
+    font-size: 18px;
+  }
+  #hero-section {
+    text-align: center;
+  }
+  #hero-section span {
+    display: block;
+  }
+  .col-md-6 {
+  width: 50%;
   }
 }
 /* ==============================
