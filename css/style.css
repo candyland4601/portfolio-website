@@ -11,12 +11,11 @@ Layout styling
 }
 header {
   background-color: #ffffff;
-  padding: 10px;
-  margin: 10px;
   text-align: center;
   padding: 10px 0;
   box-shadow: 0px 2px 3px 0px rgba(50, 50, 50, 0.5);
   position: fixed;
+  width: 100%;
 }
 main {
   padding-top: 133px;
@@ -77,17 +76,18 @@ a:active { /* selected link */
   color: #d5af65;
 }
 .button {
-  display: inline-block; /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
+  display: inline-block;
   background-color: #c4873a;
-  color: #ffffff !important; /* needed to override the default link color */
+  color: white !important;
   font-weight: 400;
+  text-decoration: none;
   padding: 10px;
   border-radius: 3px;
-  border-bottom: 2px solid #994c30; /* width of the border, type, color */
-  transition: 0.2s opacity;
+  border-bottom: 2px solid #994c30;
+  transition-duration: 0.2s opacity;
 }
 .button:hover {
-  opacity: 0.8; /* Reduces the opacity of the button to 80% */
+  opacity: 0.8;
   text-decoration: none;
 }
 .button.contact {
@@ -141,7 +141,6 @@ nav > ul > li > a:active {
   color: #d5af65;
 }
 #hero-section {
-  background-color: rgba(209,166,66,0.2);
   padding: 20px 0;
   display: inline-block;
   width: 100%;
@@ -167,6 +166,11 @@ nav > ul > li > a:active {
 #contact .row {
   display: inline-block;
 }
+.animation {
+  width 100%;
+  max-width 100%;
+  height: auto;
+}
 /* ==============================
 Medium devices (640px and larger)
 ================================= */
@@ -189,14 +193,38 @@ Medium devices (640px and larger)
   #hero-section span {
     display: block;
   }
+  #work-section h2 {
+    text-align: center;
+  }
+  #work-section {
+    text-align: left;
+  }
+  #work-section h3 {
+    margin-top: 0;
+  }
   .col-md-6 {
   width: 50%;
   }
+  [class*="col-"] {
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
 }
 /* ==============================
 Large devices (1024px or larger)
 ================================= */
 @media only screen and (min-width: 1024px) {
+  .container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 /* ==============================
 X-large devices (1440px or larger)
