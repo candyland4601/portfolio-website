@@ -160,6 +160,13 @@ nav > ul > li > a:active {
 #project-section h1 {
   text-align: center;
 }
+#contact {
+  text-align: center;
+  padding-top: 85px;
+}
+#contact .row {
+  display: inline-block;
+}
 /* ==============================
 Medium devices (640px and larger)
 ================================= */
