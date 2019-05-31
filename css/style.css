@@ -246,19 +246,46 @@ Large devices (1024px or larger)
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
-  }
-  .col-md-6 {
-  width: 50%;
-  }
-  [class*="col-"] {
-    float: left;
-    padding-left: 10px;
-    padding-right: 10px;
-  }
-  .row::after {
-  content: "";
-  clear: both;
-  display: table;
+}
+header {
+  text-align: unset;
+  padding: 20px 0 13px;
+}
+nav {
+  width: auto;
+  float: right;
+  margin-top: 4px;
+}
+body {
+  font-size: 18px;
+}
+#hero-section {
+  text-align: center;
+}
+#hero-section span {
+  display: block;
+}
+#work-section h2 {
+  text-align: center;
+}
+#work-section {
+  text-align: left;
+}
+#work-section h3 {
+  margin-top: 0;
+}
+.col-md-6 {
+width: 50%;
+}
+[class*="col-"] {
+  float: left;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.row::after {
+content: "";
+clear: both;
+display: table;
 }
 }
 /* ==============================
