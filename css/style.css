@@ -171,6 +171,14 @@ nav > ul > li > a:active {
   max-width: 100%;
   height: auto;
 }
+@keyframes color-change {
+  0% {fill: #edc655;}
+  50% {fill: #fcffad;}
+  100% {fill: #f76414;}
+}
+.sun {
+  animation: 4s color-change infinite alternate linear;
+}
 /* ==============================
 Medium devices (640px and larger)
 ================================= */
