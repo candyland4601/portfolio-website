@@ -168,7 +168,7 @@ nav > ul > li > a:active {
 }
 .animation {
   width: 100%;
-  max-width: 100%;
+  max-width: auto;
   height: auto;
 }
 @keyframes color-change {
