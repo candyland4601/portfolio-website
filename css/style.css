@@ -225,6 +225,19 @@ Large devices (1024px or larger)
     margin-left: auto;
     margin-right: auto;
   }
+  .col-md-6 {
+  width: 50%;
+  }
+  [class*="col-"] {
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
 }
 /* ==============================
 X-large devices (1440px or larger)
