@@ -225,7 +225,7 @@ Medium devices (640px and larger)
     margin-top: 0;
   }
   .col-md-6 {
-  width: 60%;
+  width: 50%;
   }
   [class*="col-"] {
     float: left;
