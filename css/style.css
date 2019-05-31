@@ -274,8 +274,11 @@ body {
 #work-section h3 {
   margin-top: 0;
 }
+.col-lg-7 {
+width: 60%;
+}
 .col-lg-5 {
-width: 50%;
+width: 40%;
 }
 [class*="col-"] {
   float: left;
