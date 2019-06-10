@@ -208,6 +208,9 @@ Medium devices (640px and larger)
   .navtoggle li:not(:last-child) {
   display: inline-block;
 }
+.navtoggle li:last-child {
+  display: none;
+}
   nav {
     width: auto;
     float: right;
@@ -267,6 +270,9 @@ header {
 }
 .navtoggle li:not(:last-child) {
   display: inline-block;
+}
+.navtoggle li:last-child {
+  display: none;
 }
 nav {
   width: auto;
