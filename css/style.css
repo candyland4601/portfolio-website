@@ -118,6 +118,7 @@ a:active { /* selected link */
   right: 0;
   top: 2px;
   font-size: 20px;
+  padding-right: 0;
 }
 nav > ul {
   list-style-type: none;
