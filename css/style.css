@@ -213,7 +213,7 @@ Medium devices (640px and larger)
     font-size: 18px;
   }
   #logo {
-    min-width: 150px;
+    min-width: 400px;
   }
   #hero-section {
     text-align: center;
