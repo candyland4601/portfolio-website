@@ -110,6 +110,15 @@ a:active { /* selected link */
 .navtoggle li:not(:last-child) {
   display: none;
 }
+.navtoggle, .navtoggle.responsive {
+  position: relative;
+}
+.navtoggle li .icon {
+  position: absolute;
+  right: 0;
+  top: 2px;
+  font-size: 20px;
+}
 nav > ul {
   list-style-type: none;
   padding: 0;
