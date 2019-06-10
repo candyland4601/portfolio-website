@@ -123,6 +123,7 @@ a:active { /* selected link */
 nav > ul {
   list-style-type: none;
   padding: 0;
+  margin: 0;
 }
 nav > ul > li {
   font-family: 'Oswald', sans-serif;
@@ -230,6 +231,9 @@ Medium devices (640px and larger)
     display: inline-block;
     font-family: 'Oswald', sans-serif;
   }
+  nav > ul {
+  margin: 1em 0;
+}
   body {
     font-size: 18px;
   }
@@ -292,6 +296,9 @@ nav {
 nav > ul > li {
   display: inline-block;
   font-family: 'Oswald', sans-serif;
+}
+nav > ul {
+  margin: 1em 0;
 }
 body {
   font-size: 18px;
