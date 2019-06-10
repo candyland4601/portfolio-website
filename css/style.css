@@ -140,6 +140,9 @@ nav > ul > li > a:active {
   font-weight: 200;
   color: #d5af65;
 }
+#logo {
+  max-width: 150px;
+}
 #hero-section {
   padding: 20px 0;
   display: inline-block;
@@ -209,6 +212,9 @@ Medium devices (640px and larger)
   body {
     font-size: 18px;
   }
+  #logo {
+    min-width: 641px;
+  }
   #hero-section {
     text-align: center;
   }
@@ -258,6 +264,9 @@ nav {
 }
 body {
   font-size: 18px;
+}
+#logo {
+  min-width: 641px;
 }
 #hero-section {
   text-align: center;
