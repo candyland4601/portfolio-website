@@ -120,6 +120,9 @@ a:active { /* selected link */
   font-size: 20px;
   padding-right: 0;
 }
+.navtoggle.responsive li  {
+  display: block;
+}
 nav > ul {
   list-style-type: none;
   padding: 0;
