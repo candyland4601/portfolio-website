@@ -29,7 +29,7 @@ body {
   font-weight: 300; /* Sets the font weight to 300 */
   line-height: 1.6; /* Sets the line-height to 1.6 * the font-size */
   color: #627a85;
-  overflow: visible !important;
+  overflow: auto !important;
 }
 
 h1, h2, h3, h4 {
