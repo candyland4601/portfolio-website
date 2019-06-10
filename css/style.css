@@ -107,6 +107,9 @@ a:active { /* selected link */
   border-bottom: 1px solid #d5af65;
   padding: 25px;
 }
+.navtoggle.responsive li  {
+  display: block;
+}
 .navtoggle li:not(:last-child) {
   display: none;
 }
@@ -119,9 +122,6 @@ a:active { /* selected link */
   top: 2px;
   font-size: 20px;
   padding-right: 0;
-}
-.navtoggle.responsive li  {
-  display: block;
 }
 nav > ul {
   list-style-type: none;
