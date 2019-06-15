@@ -119,7 +119,7 @@ a:active { /* selected link */
   padding: 0 0 10px;
 }
 .navtoggle li:not(:last-child) {
-  display: none;
+  display: block;
 }
 .navtoggle, .navtoggle.responsive {
   position: relative;
