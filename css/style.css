@@ -192,6 +192,9 @@ nav > ul > li > a:active {
 #contact .row {
   display: inline-block;
 }
+#profile {
+  width: 300px;
+}
 .animation {
   width: 100%;
   max-width: 100%;
