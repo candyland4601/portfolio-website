@@ -65,18 +65,18 @@ img {
 }
 a:hover,
 a:focus {
-  color: #d5af65;
+  color: #957029;
   text-decoration: underline;
 }
 a:visited { /* visited link */
-  color: #c4873a;
+  color: #957029;
 }
 a:active { /* selected link */
-  color: #d5af65;
+  color: #957029;
 }
 .button {
   display: inline-block;
-  background-color: #c4873a;
+  background-color: #957029;
   color: white !important;
   font-weight: 400;
   text-decoration: none;
@@ -91,12 +91,12 @@ a:active { /* selected link */
 }
 .button.contact {
   background-color: transparent;
-  color: #c4873a !important;
+  color: #957029 !important;
   text-transform: uppercase;
   border: 2px solid #c4873a;
 }
 .button.contact:hover {
-  background-color: #d5af65;
+  background-color: #957029;
   color: #ffffff !important;
 }
 .logo {
